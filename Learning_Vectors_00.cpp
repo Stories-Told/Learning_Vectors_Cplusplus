@@ -8,7 +8,7 @@ int main()
 {
 	// Different ways to declare vectors
 	vector <int> testScores{10, 5, 6, 3, 8}; // Storing different values in the vector
-	vector <double> hi_temps(360, 80.1); // Creates 360 values of 80.0
+	vector <double> hi_temps(360, 80.1); // Creates 360 values of 80.1
 
 	// Accessing different values in vectors
 	cout << "Accessing different values in vectors" << endl;
