@@ -8,7 +8,7 @@ int main()
 {
 	// Different ways to declare vectors
 	vector <int> testScores{10, 5, 6, 3, 8}; // Storing different values in the vector
-	vector <double> hi_temps(360, 80.1); // Creates 360 values of 80.1
+	vector <double> hi_temps(360, 80.1); // Creates 360 values of 80.0
 
 	// Accessing different values in vectors
 	cout << "Accessing different values in vectors" << endl;
@@ -65,6 +65,15 @@ int main()
 	testScores.push_back(numberAdded);
 	int lastNumber = testScores.size();
 	cout << "Last number is: " << testScores.at(lastNumber - 1) << endl;
+
+	cout << endl;
+	cout << "Iterating through a vector using the .size() function" << endl;
+
+	vector <int> nums = { 10,20,30,40,50 };
+	for (unsigned i = 0; i < nums.size(); i++)
+	{
+		cout << nums[i] << endl;
+	}
 
 	cout << endl;
 	cout << "Declaring a 2d vector" << endl;
